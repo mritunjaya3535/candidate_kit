@@ -28,3 +28,4 @@ FastAPI + MongoDB backend for attendance logging and analytics, following the Op
 - **Concurrency**: Guaranteed conflict prevention for simultaneous punch-ins and punch-outs via atomic database operations and unique indexes.
 - **Analytics**: Analytics pipelines (employee monthly summary, department summary, late leaderboard, department trend) run entirely within MongoDB aggregations using `$lookup`, `$densify`, and `$setWindowFields`.
 - **Explain**: Endpoint `/admin/explain/{endpoint}` reports execution stats and index scans (`IXSCAN`) for query validation.
+
